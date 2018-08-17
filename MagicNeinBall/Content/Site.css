@@ -1,0 +1,93 @@
+﻿body{
+    background-color:darkslateblue;
+}
+.title-Wrapper{
+    
+}
+.title-neinball{
+    font-family:Verdana;
+    font-size: 40px;
+    font-weight:bolder;
+    text-align:center;
+    margin-top: 50px;
+    color: black;
+    font-variant-caps:small-caps;
+    font-style:oblique;
+    width: 100%;
+    
+    padding: 20px;
+    background-color:aqua;
+
+    margin: auto;
+  
+}
+
+.button-nein-container{
+    text-align:center;
+    margin-top: 100px;
+}
+
+#button-nein{
+    font-size: 25px;
+}
+
+.neinball-image-container{
+   
+    text-align: center;
+    position: relative;
+
+}
+
+#output-nein{
+ 
+    text-align: center;
+    height: 100%;
+  
+        
+}
+#fortune-output{
+
+    position:absolute;
+
+    top: 80px;
+    
+    right:0%;
+    left:0%;
+    bottom:0;
+    
+    
+
+    width: 175px;
+    height: 200px;
+    
+    margin: auto;
+    display: block;
+}
+.nein-output-text{
+  
+    color: ghostwhite;
+    font-size: 22px;
+    font-family: 'Comic Sans MS';
+    text-shadow: 0 1px 0 #f00,
+                 0 2px 0 #f00,
+                 0 3px 0 #f00,
+                 0 4px 0 #f00,
+                 0 5px 0 #f00,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px #f00;
+   
+}
+.nein-content-container{
+    position: relative;
+    right: 0%;
+    left: 0%;
+    
+}
+footer{
+    color: black;
+}

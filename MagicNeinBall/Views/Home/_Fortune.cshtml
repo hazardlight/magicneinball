@@ -1,0 +1,15 @@
+﻿@model IEnumerable<MagicNeinBall.Models.Fortune>
+
+<div id="fortune-output">
+
+    <div class="nein-output-text">
+    
+
+        @foreach (var item in Model)
+        {
+               @item.fortuneText     
+        }
+       @* @Html.DisplayTextFor(model => model.fortuneText)*@
+
+    </div>  
+</div>
